@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="parallelTesting" parallel="tests">
+  
+  
+  <test  name="Parlleltest">
+ <parameter name="browser" value="chrome"></parameter>
+    <classes>
+    
+      <class name="com.pom.rough.ParallelTest"/>
+      
+    </classes>
+  </test> <!-- Login Test -->
+  <test  name="parallelTest1">
+ <parameter name="browser" value="firefox"></parameter>
+    <classes>
+    
+      <class name="com.pom.rough.ParallelTest"/>
+      
+    </classes>
+  </test> <!-- Login Test -->
+</suite> <!-- Regression Suite -->

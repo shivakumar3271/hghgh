@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Functional Suite">
+
+
+ <!-- <listeners>
+<listener class-name="com.pom.listeners.Listeners"></listener>
+</listeners> -->
+	<groups>
+		<run>
+			<exclude name="smoketest"></exclude>
+		</run>
+	</groups>
+	<test name="login test">
+		<classes>
+
+			<class name="com.pom.rough.TestNG_TestCase" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="validate test">
+		<classes>
+			<class name="com.pom.rough.Vallidation_TestNG" />
+
+		</classes>
+	</test>
+	<test name="dependency test">
+		<classes>
+
+			<class name="com.pom.rough.Dependencies_TestCase" />
+
+		</classes>
+	</test>
+</suite> <!-- Suite -->

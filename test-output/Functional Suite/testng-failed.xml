@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional Suite]">
+  <test thread-count="5" name="validate test(failed)">
+    <groups>
+      <run>
+        <exclude name="smoketest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.pom.rough.Vallidation_TestNG">
+        <methods>
+          <include name="validatingTitles"/>
+        </methods>
+      </class> <!-- com.pom.rough.Vallidation_TestNG -->
+    </classes>
+  </test> <!-- validate test(failed) -->
+  <test thread-count="5" name="dependency test(failed)">
+    <groups>
+      <run>
+        <exclude name="smoketest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.pom.rough.Dependencies_TestCase">
+        <methods>
+          <include name="doLogin"/>
+          <include name="userReg"/>
+        </methods>
+      </class> <!-- com.pom.rough.Dependencies_TestCase -->
+    </classes>
+  </test> <!-- dependency test(failed) -->
+</suite> <!-- Failed suite [Functional Suite] -->

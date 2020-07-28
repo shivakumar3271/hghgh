@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+  <test  name="Login Test">
+    <classes>
+    
+      <class name="com.pom.regeression.TestNG_TestCase"/>
+    </classes>
+  </test> <!-- Login Test -->
+  <test  name="validting Test">
+    <classes>
+      <class name="com.pom.regeression.Vallidation_TestNG"/>
+    
+    </classes>
+  </test>
+</suite> <!-- Regression Suite -->

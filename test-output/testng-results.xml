@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23221" started-at="2019-09-28T04:54:03Z" finished-at="2019-09-28T04:54:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23221" started-at="2019-09-28T04:54:03Z" finished-at="2019-09-28T04:54:26Z">
+      <class name="com.pom.rough.TestInvocation">
+        <test-method status="PASS" signature="invocationCount()[pri:0, instance:com.pom.rough.TestInvocation@402a079c]" name="invocationCount" duration-ms="16462" started-at="2019-09-28T04:54:03Z" finished-at="2019-09-28T04:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invocationCount -->
+        <test-method status="PASS" signature="invocationCount()[pri:0, instance:com.pom.rough.TestInvocation@402a079c]" name="invocationCount" duration-ms="6692" started-at="2019-09-28T04:54:20Z" finished-at="2019-09-28T04:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invocationCount -->
+      </class> <!-- com.pom.rough.TestInvocation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

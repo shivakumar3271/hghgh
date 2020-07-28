@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameterization">
+  
+  
+  <test  name="parametersTest">
+ <parameter name="browser" value="chrome"></parameter>
+    <classes>
+    
+      <class name="com.pom.rough.TestParameters_testNGXml"/>
+      
+    </classes>
+  </test> <!-- Login Test -->
+  <test  name="parametersTest1">
+ <parameter name="browser" value="firefox"></parameter>
+    <classes>
+    
+      <class name="com.pom.rough.TestParameters_testNGXml"/>
+      
+    </classes>
+  </test> <!-- Login Test -->
+</suite> <!-- Regression Suite -->

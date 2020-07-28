@@ -1,0 +1,12 @@
+12:40:30,660 DEBUG devpinoyLogger<strong>{1}</strong>:56 - config file is loaded
+12:40:30,668 DEBUG devpinoyLogger<strong>{1}</strong>:68 - OR file is loaded
+12:40:36,305 DEBUG devpinoyLogger<strong>{1}</strong>:82 - chrome launched
+12:40:40,905 DEBUG devpinoyLogger<strong>{1}</strong>:91 - url site launched
+12:40:41,657 DEBUG devpinoyLogger<strong>{1}</strong>:15 - inside logintest
+12:40:46,881 DEBUG devpinoyLogger<strong>{1}</strong>:20 - login success
+12:40:46,988 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+12:40:46,991 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+12:40:46,993 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+12:40:47,004 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+12:40:47,005 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/SHIVA/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+12:40:49,272 DEBUG devpinoyLogger<strong>{1}</strong>:149 - test completed
